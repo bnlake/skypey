@@ -1,0 +1,19 @@
+.User {
+	display: flex;
+	align-items: flex-start;
+	padding: 1rem;
+}
+
+.User:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.User_pic {
+	width: 50px;
+	border-radius: 50%;
+}
+
+.User_details {
+	display: block;
+}

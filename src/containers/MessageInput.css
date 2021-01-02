@@ -1,0 +1,15 @@
+.MessageInput {
+	width: 90%;
+	margin: 1rem auto;
+}
+
+.MessageInput input {
+	width: 100%;
+	font-size: 1rem;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 0.8);
+	outline: 0;
+	border: 1pt solid;
+	border-color: rgba(255, 255, 255, 0.3);
+	border-radius: 1rem;
+}

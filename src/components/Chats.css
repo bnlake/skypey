@@ -1,0 +1,28 @@
+.Messages {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 0;
+	align-items: flex-start;
+	overflow-y: scroll;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+.Message {
+	border-radius: .7rem;
+	padding: 0.2rem 1rem;
+	max-width: 80%;
+	margin: 0.2rem 0;
+	background-color: gray;
+}
+
+.Message:not(.usermessage) {
+	border-bottom-left-radius: 0;
+	margin-right: auto;
+}
+
+.usermessage {
+	background-color: steelblue;
+	border-bottom-right-radius: 0;
+	margin-left: auto;
+}
